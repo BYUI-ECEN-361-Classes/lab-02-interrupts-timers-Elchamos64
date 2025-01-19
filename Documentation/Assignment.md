@@ -1,6 +1,6 @@
 # ECEN-361 Lab-02: Clocks, Timers, and Interrupts
 ### Winter-2025
-     Student Name:  Fill-in HERE
+     Student Name:  Oscar Ramos
 
 
 ## Introduction and Objective of the Lab
@@ -75,9 +75,9 @@ Note the speed of D1/D2/D3 - they should seem like a 3-bit binary counter.
 
 Once you have all three LEDs blinking properly, answer the following questions:
 
-1. At what frequency does D1 toggle? [*answer here*]
+1. At what frequency does D1 toggle? 10Hz or every 100 ms.
 
-2. Do all LEDs toggle at *exactly* the same time? [*answer here*]
+2. Do all LEDs toggle at *exactly* the same time? No, because they use different timers
 
 ## Part 2: Changing the clock tree
 
@@ -92,11 +92,11 @@ Change the clock tree to adjust the rates at which the LEDs blink.
 
 ## Part 2 Questions (3 pts)
 
-1. What has happened to the speed of the timers? [*answer here*]
+1. What has happened to the speed of the timers? The speed has decreased, they stay on for longer
 
-2. What is the new frequency of LED D1? [*answer here*]
+2. What is the new frequency of LED D1? 20Mhz
 
-3. When we changed the frequency, did the Seven-Segment Light update rate change?  (hint, look at the clocks driving the APB1, APB2 buses and which timers are on which bus.  Recall that the Seven-Segment timer is Tim17) [*answer here*]
+3. When we changed the frequency, did the Seven-Segment Light update rate change?  (hint, look at the clocks driving the APB1, APB2 buses and which timers are on which bus.  Recall that the Seven-Segment timer is Tim17) Yes
 
 ## Part 3: Reaction Timer (5 pts)
 
